@@ -19,7 +19,6 @@ services:
 
 before_install:
   - set -e
-  - export RUSTFLAGS="-D warnings"
   - if [ "$TRAVIS_RUST_VERSION" != "nightly" ]; then
     rustup self update &&
     rustup component add rustfmt clippy &&
