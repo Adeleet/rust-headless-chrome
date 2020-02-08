@@ -54,7 +54,7 @@
 //! ```
 
 #![cfg_attr(feature = "nightly", feature(external_doc))]
-#![deny(clippy::pedantic)]
+#![warn(clippy::pedantic)]
 #![warn(renamed_and_removed_lints)]
 #![allow(
 clippy::unknown_clippy_lints,
